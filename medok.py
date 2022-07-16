@@ -10,7 +10,7 @@ from selenium.common.exceptions import WebDriverException
 opts = FirefoxOptions()
 ##opts.add_argument("--headless")
 opts.page_load_strategy = 'none'
-fp = webdriver.FirefoxProfile('C:\\Users\\Юлия\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\8ob6u95l.ufo2') # вместо ... Ваш профиль.
+fp = webdriver.FirefoxProfile('C:\\Users\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\...') # вместо ... Ваш профиль.
 driver = webdriver.Firefox(options=opts, firefox_profile=fp)
 
 try:
